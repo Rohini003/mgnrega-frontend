@@ -21,7 +21,7 @@ const WagePage = () => {
   useEffect(() => {
     const fetchWages = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/wages");
+        const res = await fetch("https://mgnrega-backend-8tzd.onrender.com/api/wages");
         const data = await res.json();
         setAllWages(data);
         setWages(data);

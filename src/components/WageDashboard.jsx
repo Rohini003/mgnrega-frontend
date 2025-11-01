@@ -45,7 +45,7 @@ const PerformanceDashboard = () => {
   useEffect(() => {
     const fetchPerformanceData = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/mgnrega/performance");
+        const res = await fetch("https://mgnrega-backend-8tzd.onrender.com/api/mgnrega/performance");
         if (!res.ok) throw new Error("Failed to fetch data");
         const result = await res.json();
         const dataset = Array.isArray(result) ? result : [result];

@@ -48,7 +48,7 @@ const WageDashboard = () => {
           : {};
 
         const res = await axios.get(
-          "http://localhost:5000/api/mgnrega/performance",
+          "https://mgnrega-backend-8tzd.onrender.com/api/mgnrega/performance",
           params
         );
 
