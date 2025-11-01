@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "vite"
+    "start": "node server.js"
   },
   "author": "Rohini Parase",
   "license": "ISC",
