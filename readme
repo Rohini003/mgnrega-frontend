@@ -1,0 +1,64 @@
+# 🧩 MGNREGA Performance Dashboard  
+
+### 📊 Government Data Analytics & Visualization Platform  
+
+The **MGNREGA Dashboard** is a full-stack web application that visualizes district-wise and state-level performance under the **Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)**. It provides interactive charts, data insights, and statistics to monitor and analyze employment trends, expenditure, and performance metrics across India.  
+
+---
+
+## 🚀 Features  
+
+- ✅ **Interactive Visualization** – Displays district-wise and state-level MGNREGA data using charts and graphs.  
+- ✅ **Dynamic API Fetch** – Fetches live performance data from MongoDB through backend APIs.  
+- ✅ **Data Upload Support** – Easily upload CSV files containing district performance metrics.  
+- ✅ **Speech Integration** – Text-to-speech functionality for accessibility and narration.  
+- ✅ **Dockerized Setup** – Fully containerized application for easy deployment.  
+- ✅ **Responsive Frontend** – Built with React and Tailwind CSS for seamless experience on all devices.  
+- ✅ **RESTful Backend API** – Node.js and Express backend serving data from MongoDB Compass.  
+
+---
+
+## 🏗️ Tech Stack  
+
+| Layer | Technologies Used |
+|-------|--------------------|
+| **Frontend** | React.js, Axios, Tailwind CSS |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB (Local Compass) |
+| **Hosting** | Render (Backend API) + Netlify (Frontend) |
+| **Containerization** | Docker |
+| **Version Control** | Git & GitHub |
+
+---
+
+## ⚙️ Installation & Setup  
+
+### 🧩 Prerequisites  
+- Node.js and npm installed  
+- MongoDB Compass (local database)  
+---
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/yourusername/mgnrega-dashboard.git
+cd mgnrega-dashboard
+
+
+### Deployemnt
+☁️ Deployment
+
+Frontend: Deployed on Render
+
+Backend: Deployed on Render
+
+Database: MongoDB Atlas
+
+Example URLs:
+
+Frontend → https://mgnrega-frontend-20c1.onrender.com
+
+Backend → https://mgnrega-backend-8tzd.onrender.com
+
+## ScreenShots
+
+
